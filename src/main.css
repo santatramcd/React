@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* p, h1, h2 , h3{
+    color: #fff;
+} */
+.App {
+    width: 100%;
+}
+.compteur{
+    display: flex;
+    width: 110px;
+    align-items: center;
+    height: 70px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    gap: 10px;
+    box-shadow:1px 2px 2px #333;
+    margin: 10px;
+    padding: 10px;
+}
+.compteur button{
+    padding: 10px;
+}
+.compteur p{
+    font-size: 20px;
+    font-weight: 700;
+}
+.compteur p.erreur{
+    color: red;
+}
+.delete{
+    background-color: red;
+    color: #fff;
+}
+.active{
+    background-color: rgb(183, 103, 103)!important;
+    color: #fff!important;
+}
